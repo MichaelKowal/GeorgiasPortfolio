@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('http://placekitten.com/1920/1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
