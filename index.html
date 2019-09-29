@@ -23,173 +23,315 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-            <!-- Banner -->
-            <div class="banner-image">
+        <!-- Navbar -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#home">Georgia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#projects">Projects</a>
+                    <a class="nav-item nav-link" href="#goals">Goals</a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#more-info">More Info</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
             </div>
+        </nav>
 
-           <!-- Full Page Image Header with Vertically Centered Content -->
-            <header class="masthead">
-                <div class="container h-100">
+        <!-- Banner-->
+        <header id="home" class="masthead">
+            <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
-                    <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
-                    <p class="lead">A great starter layout for a landing page</p>
+                    <h1 class="font-weight-light">Georgia Riddell</h1>
+                    <p class="lead">A Kool Kat</p>
                     </div>
                 </div>
-                </div>
-            </header>
+            </div>
+        </header>
 
-            <!-- About -->
-            <section id="about">
-                <div class="container">
-                    <div class="row">
+        <!-- Projects -->
+        <section id="projects">
+            <div class="container">
+                <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading text-uppercase">About</h2>
+                            <h2 class="section-heading text-uppercase">Projects</h2>
                             <h3 class="section-subheading text-muted"></h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="timeline">
-                                <li>
-                                    <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/Me.png" alt="">
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4>1994 - 2016</h4>
-                                            <h4 class="subheading">Growing and Learning</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
-                                                I grew up in Prince Rupert, BC.  Prince Rupert is a small town on the North Coast
-                                                known for its fishing and its rain.  I've always loved creating things and when I
-                                                discovered the world of programming I dove in head first.  For years I did different
-                                                tutorials on different languages and software tools, until I finally decided to get
-                                                a computer science degree.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/schoolbus.jpg" alt="">
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4>September 2016</h4>
-                                            <h4 class="subheading">Fresh Start</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
-                                                Going to university was the first time I had ever left Prince Rupert.  It provided
-                                                many new challenges and opportunities.  I've since made many new friends, had new
-                                                experiences, and learned so much.  The classroom environment really boosted my
-                                                learning in ways I did not expect.  There is a lot more to the field of computer
-                                                science than you can learn from a few youtube videos!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/code.jpg" alt="">
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4>Summer 2018</h4>
-                                            <h4 class="subheading">Work!</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
-                                                During the summer of 2018 I was hired by one of my professors to build Pulpatect.  I
-                                                worked 8-4 every day applying the skills I had learned in school as well as
-                                                learning how to work on a larger team.  It was a fantastic experience that proved to
-                                                me that I had chosen the right field.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/Grad.gif" alt="">
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4>April 2019</h4>
-                                            <h4 class="subheading">Graduation!</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
-                                                I will be graduating with a Bachelor of Science in Computer Science in April of
-                                                2019.  As soon as my exams are done I will be moving to Victoria to look for work
-                                                in the tech industry and start the next chapter of my life.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <h4>To
-                                            <br>The
-                                            <br>Future!</h4>
-                                    </div>
-                                </li>
-                            </ul>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="http://placekitten.com/320/320" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/321/321" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/330/330" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/335/335" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/307/307" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/316/316" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://placekitten.com/302/302" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-
-            <!-- Contact -->
-            <section id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading text-uppercase">Contact</h2>
-                            <h3 class="section-subheading text-muted">Send me a message, I'd love to hear from you!</h3>
-                        </div>
+        <!-- Goals -->
+        <section id="goals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Goals</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
+                </div>
+                <ul class="list-group-flush goals">
+                    <li class="media my-4">
+                        <img src="http://placekitten.com/325/325" class="mr-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 mb-1">Get a job</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                    <li class="media my-4">
+                        <div class="media-body goals-right">
+                            <h3 class="mt-0 mb-1">Settle in to Victoria</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <img src="http://placekitten.com/275/275" class="mr-3">
+                    </li>
+                    <li class="media my-4">
+                        <img src="http://placekitten.com/310/310" class="mr-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 mb-1">Cure the common cold</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                    <li class="media my-4">
+                        <div class="media-body goals-right">
+                            <h3 class="mt-0 mb-1">End world hunger</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <img src="http://placekitten.com/290/290" class="mr-3">
+                    </li>
+                    <li class="media my-4">
+                        <img src="http://placekitten.com/295/295" class="mr-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 mb-1">Date Michael</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">About</h2>
+                        <h3 class="section-subheading text-muted"></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="http://placekitten.com/150/150" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>1994 - 2016</h4>
+                                        <h4 class="subheading">Growing and Learning</h4>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="col-lg-12 text-center">
-                                        <div id="success"></div>
-                                        <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">
+                                            I grew up in Prince Rupert, BC.  Prince Rupert is a small town on the North Coast
+                                            known for its fishing and its rain.  I've always loved creating things and when I
+                                            discovered the world of programming I dove in head first.  For years I did different
+                                            tutorials on different languages and software tools, until I finally decided to get
+                                            a computer science degree.
+                                        </p>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="http://placekitten.com/305/305" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>September 2016</h4>
+                                        <h4 class="subheading">Fresh Start</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">
+                                            Going to university was the first time I had ever left Prince Rupert.  It provided
+                                            many new challenges and opportunities.  I've since made many new friends, had new
+                                            experiences, and learned so much.  The classroom environment really boosted my
+                                            learning in ways I did not expect.  There is a lot more to the field of computer
+                                            science than you can learn from a few youtube videos!
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="http://placekitten.com/250/250" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Summer 2018</h4>
+                                        <h4 class="subheading">Work!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">
+                                            During the summer of 2018 I was hired by one of my professors to build Pulpatect.  I
+                                            worked 8-4 every day applying the skills I had learned in school as well as
+                                            learning how to work on a larger team.  It was a fantastic experience that proved to
+                                            me that I had chosen the right field.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="http://placekitten.com/200/200" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>April 2019</h4>
+                                        <h4 class="subheading">Graduation!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">
+                                            I will be graduating with a Bachelor of Science in Computer Science in April of
+                                            2019.  As soon as my exams are done I will be moving to Victoria to look for work
+                                            in the tech industry and start the next chapter of my life.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h4>To
+                                        <br>The
+                                        <br>Future!</h4>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <!-- More Info -->
+        <section id="more-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">More Info</h2>
+                        <h3 class="section-subheading text-muted"></h3>
+                    </div>
+                </div>
+                <div class="info-links">
+                    <div class="info-link">
+                        <a class="btn btn-primary btn-lg" href="media/Resume.txt" download="Resume" target="_blank">Download my resume!</a>
+                    </div>
+                    <div class="info-link">
+                        <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/georgia-riddell-9ab7b2178/" target="_blank">Visit my LinkedIn!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Contact</h2>
+                        <h3 class="section-subheading text-muted">Send me a message, I'd love to hear from you!</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer>
-
+            <p>© Copyright 2019 Georgia Riddell</p>
         </footer>
 
         <!-- Bootstrap core JavaScript -->

@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+section {
+    padding: 100px 0;
+}
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -13,5 +17,73 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+    color: whitesmoke;
+}
 
+.card-deck {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    min-width: 30%;
+    max-width: 30%;
+    margin: 15px !important;
+}
+
+#goals {
+    background-color: whitesmoke;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.goals li {
+    padding: 2rem 0;
+}
+
+.goals img {
+    height: 200px;
+    width: 200px;
+}
+
+.goals-right {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.rounded-circle.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+#more-info {
+    background-color: whitesmoke;
+}
+
+.info-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30%;
+}
+
+.info-link {
+    width: 50%;
+    margin: 15px;
+}
+
+a.btn {
+    border-radius: .25rem; 
+    border: 1px solid transparent; 
+    padding: .5rem 1rem; 
+    color: #fff; 
+}
+
+a.btn:hover { 
+    border-radius: .25rem; 
+}
